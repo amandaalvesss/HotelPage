@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Verão</title>
+    <link rel="icon" href="./imagens/beach_access_24dp_FILL0_wght400_GRAD0_opsz24.svg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hotel">O Hotel</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="#acomodacoes">Acomodações</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container-01">
+        <h1>O paraíso é aqui!!</h1>
+    </div>
+    <section class="section" id="hotel">
+        <div class="text-hotel">
+            <h1>Sobre o Hotel</h1>
+            <p>Localizada à beira mar, da exuberante Praia de Porto de Galinhas, o balneário mais prestigiado do
+                Nordeste brasileiro, surge a Pousada Tabajuba, repaginada, que somada ao Ocaporã All Inclusive Hotel, o
+                Tabaobí Smart Hotel e a Pousada Tabapitanga, compõe o crescente, promissor, e inovador Grupo Ocaporã.
+            </p>
+            <p>A Pousada Tabajuba que na sua tradução literal, em tupi guarani significa Aldeia Amarela, traz alusão a
+                sua arquitetura atual, clean, com raízes indígenas, recheada com um estilo de serviço que captura suas
+                preferências e necessidades transformando-as em uma experiência única, envolta a uma sutileza que o
+                diferencia.</p>
+            <p>Um refúgio convidativo aos casais, por combinar uma experiência intimista alinhada a alta gastronomia.
+                Tudo isso regado ao conhecido know-how adquirido do Grupo Ocaporã no serviço, gastronomia, localização e
+                estrutura de Charme.</p>
+            <p>Prazer, Hotel Verão</p>
+        </div>
+        <div class="image-hotel">
+            <img src="./imagens/cahy-praia-hotel (1).jpg" alt="Foto do Hotel">
+        </div>
+    </section>
+    <section class="section" id="reservas">
+        <div class="text-reservas">
+            <h1>Reservas</h1>
+            <p>Preencha o formulário abaixo para garantir sua reserva:</p>
+            <form class="form-reservas">
+                <label for="data-entrada">Data de Entrada:</label>
+                <input type="date" id="data-entrada" name="data-entrada" required>
+
+                <label for="data-saida">Data de Saída:</label>
+                <input type="date" id="data-saida" name="data-saida" required>
+
+                <label for="quantidade-pessoas">Quantidade de Pessoas:</label>
+                <input type="number" id="quantidade-pessoas" name="quantidade-pessoas" min="1" required>
+
+                <label for="cupom">Cupom:</label>
+                <input type="text" id="cupom" name="cupom">
+
+                <button type="submit">Pesquisar</button>
+            </form>
+            <h3>Seus dias serão inesquecíveis</h3>
+            <div class="fotos-reservas">
+                <img src="./imagens/cahy-praia-hotel.jpg" alt="Foto 1">
+                <img src="./imagens/cahy-praia-hotel (2).jpg" alt="Foto 2">
+                <img src="./imagens/cahy-praia-hotel (1).jpg" alt="Foto 3">
+                <img src="./imagens/1.jpg" alt="Foto 4" style="display: none;">
+                <img src="./imagens/2.jpg" alt="Foto 5" style="display: none;">
+                <img src="./imagens/3.jpg" alt="Foto 6" style="display: none;">
+            </div>
+            <div class="arrow">
+                <button id="anterior">&lt;</button>
+                <button id="proximo">&gt;</button>
+            </div>
+
+        </div>
+    </section>
+    <section class="section" id="acomodacoes">
+        <div class="text-acomodacoes">
+            <h1>Acomodações</h1>
+            <div class="quarto-luxo">
+                <h2> - Quarto Luxo</h2>
+                <div class="obj">
+                    <p style="padding-right: 20px;">
+                        Apartamentos iniciais da Pousada e estão localizados no 1º e 2º pisos, com 24 M², são modernos,
+                        amplos e confortáveis, com decoração sofisticada, estando posicionados em 2 alas laterais à
+                        piscina
+                        e possuem unidades com vista para a área interna da Pousada e unidades com vista externa,
+                        permitindo
+                        a sensação de tranquilidade com melhor espaço útil na área interna, por não possuir varanda.
+                        <br>
+                        <br>
+                        <img src="./imagens/cama-de-casal.png" style="height:50px; padding-right: 10px;">
+                        <img src="./imagens/cafe.png" style="height: 50px; padding-right: 10px;">
+                        <img src="./imagens/monitor-de-tv.png" style="height:50px; padding-right: 10px;">
+                        <img src="./imagens/ar-condicionado.png">
+                    </p>
+
+
+                    <div class="imagem-quarto">
+                        <img src="./imagens/hotel-rural-vale-do-rio-gallerydsc07179_80_81.jpg" alt="Foto do Quarto">
+                        <span class="seta-direita">&#8594;</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="quarto-simples">
+                <h2> - Quarto Simples</h2>
+                <div class="obj">
+                    <p style="padding-right: 20px;">
+                        Ideal para uma estadia confortável e econômica, nosso Quarto Simples oferece o equilíbrio
+                        perfeito entre comodidade e acessibilidade, proporcionando uma experiência relaxante durante sua
+                        estadia. Oferecemos uma infraestrutura confortável para os seus dias de descanso.
+                        Temos opção de café da manhã servido no quarto, basta entrar em contato com a nossa copa e
+                        agendar.
+                        <br>
+                        <br>
+                        <img src="./imagens/cama-de-casal.png" style="height:50px; padding-right: 10px;">
+                        <img src="./imagens/cafe.png" style="height: 50px; padding-right: 10px;">
+                        <img src="./imagens/monitor-de-tv.png" style="height:50px; padding-right: 10px;">
+                        <img src="./imagens/ar-condicionado.png">
+                    </p>
+
+                    <div class="imagem-quarto2">
+                        <img src="./imagens/quarto-luxo-hotel-fusion-hplus-em-brasilia-13.jpg" alt="Foto do Quarto">
+                        <span class="seta-esquerda">&#8592;</span>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <section class="section" id="contato">
+        <div class="text-contato">
+            <h1>Contato</h1>
+            Email: reservas1@hotelverao.com.br<br>
+            Telefone: 81 3988-5000<br>
+            Whatsapp: 81 99890 1111<br>
+
+            Endereço:Loteamento Sao Jose II - Porto de Galinhas, Ipojuca - PE, 50000-000
+        </div>
+        <div class="icons">
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="./imagens/instagram.png" style="margin-right: 10px;" alt="instagram">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="./imagens/whatsapp.png" alt="whatsapp">
+            </a>
+        </div>
+
+    </section>
+
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
