@@ -56,9 +56,9 @@ $(document).ready(function() {
 document.getElementById("menuIcon").onclick = function() {
     var menu = document.getElementById("menuHidden");
     if (menu.style.display === "block") {
-        menu.style.display = "none"; // Se já estiver visível, oculta
+        menu.style.display = "none"; 
     } else {
-        menu.style.display = "block"; // Se estiver oculto, mostra
+        menu.style.display = "block"; 
     }
 };
 document.addEventListener("click", function(event) {
