@@ -23,18 +23,35 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#hotel">O Hotel</a></li>
-                <li><a href="#reservas">Reservas</a></li>
-                <li><a href="#acomodacoes">Acomodações</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
+    <header>        
+        <nav>      
+            <div class="menu-container">
+                <div class="menuVisible">
+                    <ul>
+                        <li><a href="#hotel">O Hotel</a></li>
+                        <li><a href="#reservas">Reservas</a></li>
+                        <li><a href="#acomodacoes">Acomodações</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="menu-icon" id="menuIcon">
+                    &#9776; 
+                </div>
+            </div>
+            <div class="menuHidden" id="menuHidden">
+                <ul>
+                    <li><a href="#hotel">O Hotel</a></li>
+                    <li><a href="#reservas">Reservas</a></li>
+                    <li><a href="#acomodacoes">Acomodações</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <div class="container-01">
-        <h1>O paraíso é aqui!!</h1>
+        <div class="text-container">
+            <h1>O paraíso é aqui!!</h1>
+        </div>
     </div>
     <section class="section" id="hotel">
         <div class="text-hotel">
@@ -81,8 +98,7 @@
                 <img src="./imagens/cahy-praia-hotel (2).jpg" alt="Foto 2">
                 <img src="./imagens/cahy-praia-hotel (1).jpg" alt="Foto 3">
                 <img src="./imagens/1.jpg" alt="Foto 4" style="display: none;">
-                <img src="./imagens/2.jpg" alt="Foto 5" style="display: none;">
-                <img src="./imagens/3.jpg" alt="Foto 6" style="display: none;">
+                <img src="./imagens/3.jpg" alt="Foto 5" style="display: none;">
             </div>
             <div class="arrow">
                 <button id="anterior">&lt;</button>
@@ -91,7 +107,7 @@
 
         </div>
     </section>
-    <section class="section" id="acomodacoes">
+  <section class="section" id="acomodacoes">
         <div class="text-acomodacoes">
             <h1>Acomodações</h1>
             <div class="quarto-luxo">
@@ -116,13 +132,9 @@
                     <div class="imagem-quarto">
                         <img src="./imagens/hotel-rural-vale-do-rio-gallerydsc07179_80_81.jpg" alt="Foto do Quarto">
                         <span class="seta-direita">&#8594;</span>
-
                     </div>
-
                 </div>
-
             </div>
-
             <div class="quarto-simples">
                 <h2> - Quarto Simples</h2>
                 <div class="obj">
@@ -166,10 +178,8 @@
             </a>
         </div>
 
-    </section>
-
+    </section>  
 </body>
 
 <script src="js/script.js"></script>
-
 </html>
